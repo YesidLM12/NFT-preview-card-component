@@ -15,10 +15,13 @@ html{
 }
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 10px;
     font-family: var(--font);
     background-color: var(--Blue-950-main-BG);
-    padding: 5rem 1rem;
+  
 
 }
 
@@ -33,8 +36,7 @@ p{
     flex-wrap: wrap;
     padding: 2rem;
     border-radius: 2rem;
-    max-width: 100%;
-    max-height: 100%;
+    width: 80%;
     
 }
 
@@ -138,7 +140,7 @@ hr{
 
 .profile_creator{
     height: 4rem;
-    border: 2px solid var(--White);
+    border: .2rem solid var(--White);
     border-radius: 100%;
 }
 
